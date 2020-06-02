@@ -507,6 +507,8 @@ You can easily add custom variables in a variety of ways.  If the variable is a 
 {{ site.my_variable }}
 [/prism]
 
+!! Custom variables defined in the site.yaml file should not use hyphens "-", only alphanumeric and underscores characters.
+
 Alternatively, if the variable is only needed for a particular page, you can add the variable to your page's YAML front-matter, and access it via the `page.header` object.  For example:
 
 [prism classes="language-twig"]
